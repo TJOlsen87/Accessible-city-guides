@@ -25,3 +25,8 @@ The site is deliberately plain HTML/CSS/JavaScript so it can be hosted directly 
 ## Updating
 
 Ridgewood entries currently live in `ridgewood/data.js`. New Orleans is intentionally a legacy-source import for now so TJ can add firsthand notes before a more structured rebuild.
+
+
+## Tiiny Host deployment
+
+Tiiny Host deploys this repository from the committed `dist/` folder. The complete deployable site is mirrored there. When guide content changes, update the corresponding files under `dist/` as part of the same edit so Tiiny publishes the new version automatically.
