@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ridgewood, Queens Guide | Guides by TJ Olsen</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav aria-label="Guide navigation"><ul><li><a href="../">All guides</a></li><li><a href="../new-orleans/">New Orleans</a></li><li><a href="../austin/">Austin</a></li></ul></nav>
+<header>
+<h1>Ridgewood, Queens</h1>
+<p>A working neighborhood guide centered on Ridgewood and nearby Queens, combining research with TJ's firsthand experience.</p>
+<p>Drinks are noted when useful, but alcohol is not required for inclusion. Fast food and delis appear only when unusually good, distinctive, or practically useful.</p>
+<p class="visually-muted"><strong>Distance sorting:</strong> the data structure is ready for future walking-time sorting from Home and Bar Freda without publishing a private home address.</p>
+</header>
+<main id="main">
+<section class="controls" aria-labelledby="filters-heading">
+<h2 id="filters-heading">Filter places</h2>
+<label for="search">Search:</label><input id="search" type="search">
+<label for="status-filter">Guide status:</label>
+<select id="status-filter"><option value="">All</option><option value="recommended">Recommended</option><option value="situational">Good for specific situations</option><option value="research">Needs more research / firsthand visit</option><option value="caution">TJ caution</option></select>
+<label for="price-filter">Price:</label>
+<select id="price-filter"><option value="">All</option><option value="$">$</option><option value="$$">$$</option><option value="$$$">$$$</option></select>
+<label for="drinks-filter">Alcohol:</label>
+<select id="drinks-filter"><option value="">Any</option><option value="yes">Available / relevant</option><option value="no">No alcohol noted</option></select>
+<p id="result-count" aria-live="polite"></p>
+</section>
+<section aria-labelledby="places-heading"><h2 id="places-heading">Places</h2><div id="places"></div><noscript><p>This working draft uses a small script for filtering. Enable JavaScript to view the current Ridgewood entries.</p></noscript></section>
+</main>
+<footer><p>Working draft, September 2026. Restaurant details change. TJ notes identify firsthand or editorial context where available.</p></footer>
+<script src="data.js"></script><script src="guide.js"></script>
+</body></html>
