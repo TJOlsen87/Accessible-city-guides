@@ -3,29 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Guides by TJ Olsen</title>
+<title>Accessible City Guides by TJ Olsen</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
+
 <header>
-<h1>Guides by TJ Olsen</h1>
-<p>Independent, accessibility-minded guides built from research, local knowledge, and firsthand experience.</p>
+  <h1>Accessible City Guides by TJ Olsen</h1>
+  <p>Restaurant, bar, coffee, nightlife, and neighborhood guides built with accessibility, practical navigation, and real-world usefulness in mind.</p>
 </header>
+
 <main id="main">
-<section class="guide-card">
-<h2><a href="ridgewood/">Ridgewood, Queens</a></h2>
-<p>A working neighborhood guide to restaurants, bars, cafés, and useful local food, with firsthand TJ notes and a structure ready for distance sorting from Home or Bar Freda.</p>
-</section>
-<section class="guide-card">
-<h2><a href="new-orleans/">New Orleans</a></h2>
-<p>The legacy New Orleans restaurant and bar guide, imported from TJ's original notes and ready for firsthand updates.</p>
-</section>
-<section class="guide-card">
-<h2><a href="austin/">Austin</a></h2>
-<p>The 2026 NFB Austin restaurant guide, organized around the JW Marriott Austin.</p>
-</section>
+  <section aria-labelledby="about-heading">
+    <h2 id="about-heading">About the project</h2>
+    <p>These guides grew out of my work in hospitality, live music, events, accessibility, and the very ordinary problem of wanting to know where to eat, drink, meet people, or grab coffee without fighting through inaccessible menus and vague recommendation lists.</p>
+
+    <p>The goal is not to catalog every business in a city. Instead, each guide is curated around places that are useful, distinctive, affordable when possible, culturally interesting, unusually good, or simply worth knowing about.</p>
+
+    <p>Whenever possible, I separate firsthand experience from research. I also include practical information such as price, drinks, meal type, neighborhood, distance, accessibility notes, and situational cautions. A place does not need to serve alcohol to be included, and a high rating elsewhere does not automatically make it a recommendation here.</p>
+
+    <p>This is a living project. Restaurants close, menus change, ownership changes, and neighborhoods keep moving. Entries will be updated as I revisit places, hear from locals, and build new guides.</p>
+  </section>
+
+  <section aria-labelledby="guides-heading">
+    <h2 id="guides-heading">Current guides</h2>
+
+    <article class="guide-card">
+      <h3><a href="ridgewood/">Ridgewood, Queens</a></h3>
+      <p>A working neighborhood guide to restaurants, bars, cafés, cheap eats, late-night options, and nearby Queens destinations. It includes TJ notes, research status, and caution flags where firsthand experience matters.</p>
+    </article>
+
+    <article class="guide-card">
+      <h3><a href="new-orleans/">New Orleans</a></h3>
+      <p>A legacy restaurant and bar guide imported from my earlier New Orleans research, with classic institutions, neighborhood spots, cocktails, inexpensive food, and destination restaurants. This edition is being rebuilt with newer firsthand notes.</p>
+    </article>
+
+    <article class="guide-card">
+      <h3><a href="austin/">Austin</a></h3>
+      <p>The 2026 NFB Austin restaurant guide, originally built around the JW Marriott Austin for convention attendees and organized by practical walking distance.</p>
+    </article>
+  </section>
+
+  <section aria-labelledby="accessibility-heading">
+    <h2 id="accessibility-heading">Accessibility approach</h2>
+    <p>The site itself is intentionally simple: semantic headings, ordinary links, keyboard-friendly controls, readable text, and minimal visual clutter. Where restaurant menus or websites are inaccessible, I try to provide alternate information rather than treating accessibility as an afterthought.</p>
+  </section>
 </main>
-<footer><p>Working project. Details can change; check current hours and menus before traveling.</p></footer>
+
+<footer>
+  <p>Compiled by TJ Olsen. Details can change, so check current hours and menus before traveling.</p>
+</footer>
 </body>
 </html>
